@@ -36,10 +36,8 @@ Campaign DataFrame
 * Create the Contacts DataFrame
 * Choose one of the following two options for extracting and transforming the data from the contacts.xlsx Excel data:
 
-* Option 1: Use Python dictionary methods.
+Version 1: Use Python dictionary methods., completed the following steps:
 
-* Option 2: Use regular expressions.
-with Option 1, completed the following steps:
 * Import the contacts.xlsx file into a DataFrame.
 * Iterate through the DataFrame, converting each row to a dictionary.
 * Iterate through each dictionary, doing the following:
@@ -49,7 +47,8 @@ with Option 1, completed the following steps:
 * Create a new DataFrame that contains the extracted data.
 * Split each "name" column value into a first and last name, and place each in a new column.
 * Clean and export the DataFrame as contacts.csv and save it to your GitHub repository.
-* If you chose Option 2, complete the following steps:
+
+Version 2: Use regular expressions. completed the following steps:
 
 * Import the contacts.xlsx file into a DataFrame.
 * Extract the "contact_id", "name", and "email" columns by using regular expressions.
@@ -57,7 +56,7 @@ with Option 1, completed the following steps:
 * Convert the "contact_id" column to the integer type.
 * Split each "name" column value into a first and a last name, and place each in a new column.
 * Clean and then export the DataFrame as contacts.csv and save it to your GitHub repository.
-* Check that your final DataFrame resembles the one in the following image:
+
 
 Create the Crowdfunding Database
 
